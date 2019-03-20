@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.galleryOfActivity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &__counter {
+    min-width: 100px;
+    text-align: center;
+    margin: 0 15px;
+  }
+
+  &__icon {
+    font-size: 40px;
+  }
+
+  &__title {    
+    text-transform: uppercase;
+  }
+}
